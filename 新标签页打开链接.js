@@ -3,8 +3,6 @@
 // @version      2.0
 // @description  页面内的<a>标签链接在新的标签页中打开，支持自定义每个网站的排除规则
 // @author       DeepSeek
-// @downloadURL  https://raw.githubusercontent.com/FlootingDream/MyScript/refs/heads/main/%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5.js
-// @updateURL    https://raw.githubusercontent.com/FlootingDream/MyScript/refs/heads/main/%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5.js
 
 // @match        *://*.github.com/*
 // @match        *://*.wikipedia.org/*
@@ -48,6 +46,9 @@
 
 // @grant        none
 // @run-at       document-start
+
+// @downloadURL  https://raw.githubusercontent.com/FlootingDream/MyScript/refs/heads/main/%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5.js
+// @updateURL    https://raw.githubusercontent.com/FlootingDream/MyScript/refs/heads/main/%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5.js
 // ==/UserScript==
 
 (function () {
