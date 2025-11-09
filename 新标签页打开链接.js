@@ -28,6 +28,7 @@
 // @match        *://lemonlive.deno.dev/*
 // @match        *://greasyfork.org/*
 // @match        *://techgaun.github.io/*   
+// @match        *://supjav.com/*
 
 // @match        *://youiv.tv/*
 // @match        *://u15dvdinfo.com/*
@@ -108,6 +109,7 @@
         'youtube.com': [
             '#guide-content',       // 左侧导航
             '#player',              // 视频播放区
+            '#container',
             '.yt-core-attributed-string__link', // 时间跳转
             'ytd-rich-section-renderer', // 推荐内容
             'div[id="items"]',
@@ -244,6 +246,10 @@
             '.top-nav__menu',
             '.side-nav',
             '.settings-tabs'
+        ],
+
+        'supjav.com': [
+            '.header'
         ]
     };
 
