@@ -111,11 +111,12 @@
             '#guide-content',       // 左侧导航
             '#player',              // 视频播放区
             '#container',
+            '#panels-full-bleed-container',
+            '#reply-button-end',
+            '#items',
             '.yt-core-attributed-string__link', // 时间跳转
             'ytd-rich-section-renderer', // 推荐内容
-            'div[id="items"]',
-            'div[class="style-scope ytd-topbar-logo-renderer"]',
-            'ytd-button-renderer[id="reply-button-end"]'
+            '.style-scope ytd-topbar-logo-renderer',
         ],
 
         'zhihu.com': [
