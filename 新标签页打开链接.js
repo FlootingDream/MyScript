@@ -80,27 +80,27 @@
             '[aria-label="Select a branch"]',  // 分支选择标签
             '[aria-labelledby="folders-and-files"]',// 代码
             'ul[class^="list-style-none ListItems-module__tabsContainer"]', // issue打开、关闭标签选择
-            '.paginate-container',
-            '.Layout-sidebar',
+            'div[class="paginate-container"]',
+            'div[class="Layout-sidebar"]',
+            'a[href="https://github.com/"]',
             'div[class="d-flex mt-2 flex-items-center flex-column flex-sm-column flex-md-column flex-lg-row"]',
             'div[align="right"]',
-            '#notification-shelf',
+            'div[id="notification-shelf"]',
             'div[class="IssueCreatePane-module__createPaneContainer--QVEpz"]',
-            '#repos-file-tree',
-            '#file-results-list',
+            'div[id="repos-file-tree"]',
+            'div[id="file-results-list"]',
             'span[class="fgColor-muted"]',
-            '#year-list-container',
+            'div[id="year-list-container"]',
             'div[id$="list-view-metadata"]',
             'details-menu[class="select-menu-modal position-absolute right-0"]',
-            '#js-issues-toolbar',
+            'div[id="js-issues-toolbar"]',
             'div[class="RepositoryLabel-module__labelListWrapper--LLFcJ"]',
             'div[class="position-relative px-3 pb-3 pt-1"]',
             'div[data-testid="facets-pane"]',
-            '#symbols-pane',
+            'div[id="symbols-pane"]',
             'div[class="d-flex"]',
             'div[class="d-flex flex-justify-end flex-wrap flex-lg-nowrap width-full"]',
             'span[class="Title-module__trailingBadgesContainer--mijcn"]',
-            '#profile-lists-container',
 
             // 文档(doc.github.com)
             'div[data-testid="desktop-header"]',
@@ -110,13 +110,11 @@
         'youtube.com': [
             '#guide-content',       // 左侧导航
             '#player',              // 视频播放区
-            '#container',
-            '#panels-full-bleed-container',
-            '#reply-button-end',
-            '#items',
             '.yt-core-attributed-string__link', // 时间跳转
             'ytd-rich-section-renderer', // 推荐内容
-            '.style-scope ytd-topbar-logo-renderer',
+            'div[id="items"]',
+            'div[class="style-scope ytd-topbar-logo-renderer"]',
+            'ytd-button-renderer[id="reply-button-end"]'
         ],
 
         'zhihu.com': [
